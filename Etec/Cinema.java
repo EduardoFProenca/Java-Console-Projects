@@ -9,11 +9,11 @@ public class Cinema {
         int Otimo=0,Bom=0,Regular=0,Ruim=0,Pessimo=0;// Contadores para cada tipo de resposta.
         float veze =40; // Representa o número de entrevistados 
         
-        //Solicita ao usuário quantos questionário participarão.
-        //float TotalQuestionario;
-        //veze=  Integer.parseInt(JOptionPane.showInputDialog("Quantos entrevistados vai participaram?"));
-        //TotalQuestionario = veze;
-        
+        /* Solicita ao usuário quantos questionário participarão.
+         float TotalQuestionario;
+         veze=  Integer.parseInt(JOptionPane.showInputDialog("Quantos entrevistados vai participaram?"));
+         TotalQuestionario = veze;
+        */
         
         while (veze>0){  // Loop para solicitar a entrada de dados para todos os 40 entrevistados
             Idade= Integer.parseInt(JOptionPane.showInputDialog("Idade: "));   // Solicita a idade do espectador
